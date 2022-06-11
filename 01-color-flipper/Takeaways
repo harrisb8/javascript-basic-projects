@@ -1,3 +1,23 @@
 This is a Project Forked from John Smilga Javascript basic projects
 
 The intent is to practice and improve my javascript skills by building websites using concepts needed to be a successful frontend developer.
+
+This Project is a Color Flipper
+
+User will be able to click on a button. Once the button is clicked the background color of the website changes. Not only does the color change but the name of the color is displayed.
+
+To start in the html page I created the title, a header and a button that will be used to change the colors.
+each element that was created was given a class that will be used to target that element with css and javascript.
+
+In javascript I am using DOM methods:
+-getElementById()
+-document.querySelect();
+
+Also adding an event listner to the button which will change the background color
+This was my first time using Math.random which chooses a random number from 0 to 1. In order to expand my numbers and get them above 1, I had to multiply by my colors array.
+Ex:
+Math.random() * colors.length;
+Next
+Combine Math.floor with math random to round the random number. (Math.floor always round down)
+Ex:
+Math.floor(Math.random() * colors.length;
